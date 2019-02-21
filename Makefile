@@ -1,8 +1,8 @@
 all: build install pull
 	
 stack:
-	@docker build --tag=128.250.160.167:5000/lfmc-cdn .
-	@docker push 128.250.160.167:5000/lfmc-cdn
+	@docker build --tag=anthonyrawlinsuom/lfmc-cdn .
+	@docker push anthonyrawlinsuom/lfmc-cdn
 
 build:
 	@docker build --tag=anthonyrawlinsuom/lfmc-cdn .
